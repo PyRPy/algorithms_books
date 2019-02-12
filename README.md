@@ -1,2 +1,2 @@
-# algorithms_book1
+# algorithms_book
 templates and examples
