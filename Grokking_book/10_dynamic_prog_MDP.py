@@ -1,5 +1,5 @@
 # Solving MDP with Dynamic Programming - Value & Policy Iterations
-# Reference : Statistics for Machine Learning | Packt
+# Source : Statistics for Machine Learning | Packt
 import random, operator
 
 def argmax(seq, fn):
