@@ -65,13 +65,4 @@ if __name__ == '__main__':
 	insertion_sort_v2(array)
 	t1 = time.clock()
 	print ("insertion_sort_v2: " + str(t1-t0))
-# Test results shows that worst case of improved insertion sort is O(n * (n\2) * lg(n)) 
-# Better than insertion sort but still very bad
-# Tested for 1000 random elements
-# insertion_sort:----0.0390096090178
-# insertion_sort_v2:-0.0287921815039
 
-# Tested for 10000 random elements
-# insertion_sort:----3.76619711492
-# insertion_sort_v2:-2.25984142782
-# End of 2.3-6 in book
