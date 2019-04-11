@@ -1,5 +1,5 @@
 # global
-global r1, r2, x1, y1, t, prop, points
+# global r1, r2, x1, y1, t, prop, points
 prop = 0.9
 # create a spirograph
 r1 = 300.0
