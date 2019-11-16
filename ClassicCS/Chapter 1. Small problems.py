@@ -126,34 +126,4 @@ if __name__ == "__main__":
     print(tower_b)
     print(tower_c)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# this chapter other examples not included
