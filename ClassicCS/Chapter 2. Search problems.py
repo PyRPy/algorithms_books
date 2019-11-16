@@ -102,6 +102,7 @@ print(binary_contains(["a", "d", "e", "f", "z"], "f")) # True
 print(binary_contains(["john", "mark", "ronald", "sarah"], "sheila"))
 
 
+# 2.2. Maze solving
 
 
 
