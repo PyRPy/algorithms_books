@@ -22,7 +22,7 @@ class Engine(object):
             next_scene_name = current_scene.enter()
             current_scene = self.scene_map.next_scene(next_scene_name)
 
-        # be sure to print tout the last scene
+        # be sure to print out the last scene
         current_scene.enter()
 
 
@@ -159,7 +159,7 @@ class TheBridge(Scene):
                   """))
             return 'death'
 
-        elif actio == "slowly place the bomb":
+        elif action == "slowly place the bomb":
             print(dedent("""
                   you point your blaster
                   hands up
@@ -242,6 +242,6 @@ class Map(object):
     def opening_scene(self):
         return self.next_scene(self.start_scene)
 
-a_map = Map('central_corridor')
+a_map = Map('the_bridge')
 a_game = Engine(a_map)
 a_game.play()
