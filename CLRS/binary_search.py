@@ -24,7 +24,7 @@ if __name__ == '__main__':
     for i in range(100000):
         array.append(i)
 
-    t0 = time.clock()
+    t0 = time.perf_counter()
     print(binary_search(array, 345676))
-    t1 = time.clock()
+    t1 = time.perf_counter()
     print("binary_search: " + str(t1 - t0))
