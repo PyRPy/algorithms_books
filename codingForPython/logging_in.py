@@ -13,7 +13,7 @@ def newUser():
         createPassw = input("create password: ")
         users[createLogin] = createPassw
         print("\nUser created!\n")
-        logins = open("/Users/keli/Desktop/PythonDS/codingForPython/login.txt", "a")
+        logins = open("Desktop/PythonDS/codingForPython/login.txt", "a")
         logins.write("\n" + createLogin + " " + createPassw)
         logins.close()
 
