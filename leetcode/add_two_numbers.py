@@ -45,12 +45,18 @@ class Solution:
         return dummy.next 
 
 l1 = ListNode(2)
-# l1.next = ListNode(4)
-# l1.next.next = 3 
+l1.next = ListNode(4)
+l1.next.next = ListNode(3) 
 
 l2 = ListNode(5)
-# l2.next = 6
-# l2.next.next = 4
+l2.next = ListNode(6)
+l2.next.next = ListNode(4)
 
 sol = Solution()
-print(sol.addTwoNumbers(l1, l2))
+# print(sol.addTwoNumbers(l1, l2))
+
+res = sol.addTwoNumbers(l1, l2)
+print(res.val)
+print(res.next.val)
+print(res.next.next.val)
+print(l1.next)
