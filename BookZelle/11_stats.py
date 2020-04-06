@@ -47,5 +47,6 @@ def main():
     print("the standard deviation is", std) 
     print("the median is", med) 
 
-if __name__ == '__main__':
-    main() 
+# if __name__ == '__main__':
+#     main() 
+main()
