@@ -81,18 +81,13 @@ print(mylist.search(26))
 # get the second item (second smallest)
 print(mylist.head.getNext().getData())
 
+# print all the data in a linked list
+print('print all the data in each node: ')
+head = mylist.head 
+while head:
+    print(head.getData())
+    head = head.getNext() 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# print('another way to print all the data at each node: ') 
+# print([node.getData() for node in mylist])
+# # TypeError: 'OrderedList' object is not iterable
