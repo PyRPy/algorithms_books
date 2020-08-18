@@ -3,7 +3,7 @@
 int binarySearch(int arr[], int l, int r, int x)
 {
     if (r >= 1) {
-        int mid = 1 + (r - 1) / 2;
+        int mid = l + (r - 1) / 2; // corrected here from 1 to l
         if (arr[mid] == x) return mid;
 
         if (arr[mid] > x) return binarySearch(arr, l, mid-1, x);
@@ -21,6 +21,6 @@ int main(void)
     int result = binarySearch(arr, 0, n-1, x);
     (result == -1) ? printf("element is not present in array")
                     : printf("element is present at index %d", result);
-    printf("x is%d", x);
+    printf(" x is %d", x);
     return 0;
 }
