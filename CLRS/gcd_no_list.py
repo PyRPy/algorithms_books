@@ -10,9 +10,20 @@ def gcd(m, n):
 
     return mrcf
 
+def gcd2(m, n):
+    i = min(m, n)
+    while i > 0:
+        if m % i == 0 and n % i == 0:
+            return i 
+        else:
+            i = i - 1
+
 # try an example: find gcd between 14 and 63
 m = 105
 n = 35
 
-print('greatest common divider between {} and {} is: {}'.format(m, n, gcd(m, n)))
-            
+print('method 1 : without a list: ')
+print('greatest common divider between {} and {} is: {}\n'.format(m, n, gcd(m, n)))
+
+print('method 2 : without a list and from large to small: ')
+print('greatest common divider between {} and {} is: {}'.format(m, n, gcd2(m, n)))
